@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Formularios</h1>
+    <form method="POST">
+
+        <fieldset>
+            <legend>Datos</legend>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tú nombre" required="true"><br> <br>
+
+            <label for="ap">Apellido Paterno</label>
+            <input type="text" id="ap" name="apellido" placeholder="Escribe tú apellido"><br> <br>
+
+            <label for="am">Apellido Materno</label>
+            <input type="text" id="am" name="apellido" placeholder="Escribe tú apellido"><br> <br>
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad" placeholder="Escribe tú edad" step="any"><br> <br>
+
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tú contraseña"><br> <br>
+
+            <label>Genero</label><br><br>
+            <input type="radio" id="femenino" name="genro" value="femenino">
+            <label for="femenino">Femenino</label><br><br>
+
+            <input type="radio" id="masculino" name="genro" value="masculino">
+            <label for="masculino">Masculino</label><br><br>
+
+            <label for="">Areas a las que perteneces</label><br><br>
+            <input type="checkbox" id="sistemas" name="area" value="sistemas">
+            <label for="sistemas">Sistemas</label><br><br>
+            <input type="checkbox" id="redes" name="area" value="redes">
+            <label for="redes">Redes</label><br><br>
+
+            <label for="piso">En que piso se encuentra tu area</label>
+            <select name="piso" id="piso">
+                <option value="baja">Planta baja</option>
+                <option value="1">Primer piso</option>
+                <option value="2">Segundo piso</option>
+            </select><br><br>
+
+            <label for="cometarios">Comentarios</label><br>
+            <textarea placeholder="Escribe aquí" name="comentario" id="comentario" cols="30" rows="2"></textarea><br>
+
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Escribe tú contraseña"
+                maxlength="10"><br> <br>
+
+            <input type="submit" value="Enviar"><br><br>
+
+            <input type="reset" value="Restablecer">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

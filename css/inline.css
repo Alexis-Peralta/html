@@ -1,0 +1,19 @@
+h1{
+    color: rgb(63, 24, 100);
+    text-align: center;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: rgb(104, 20, 20);
+}
+
+div{
+    border: 10px solid rgb(5, 5, 66);
+    border-radius: 100px;
+    background-color: rgb(231, 204, 168);
+    text-align: center;
+}
